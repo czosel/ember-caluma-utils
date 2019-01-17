@@ -9,6 +9,7 @@
 /node_modules/
 
 # misc
+/.env*
 /.sass-cache
 /connect.lock
 /coverage/
@@ -16,6 +17,7 @@
 /npm-debug.log*
 /testem.log
 /yarn-error.log
+*.swp
 
 # ember-try
 /.node_modules.ember-try/

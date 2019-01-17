@@ -19,6 +19,18 @@ env:
     - JOBS=1
     - COVERAGE=true
 
+branches:
+  only:
+    - master
+    # npm version tags
+    - /^v\d+\.\d+\.\d+/
+
+branches:
+  only:
+    - master
+    # npm version tags
+    - /^v\d+\.\d+\.\d+/
+
 jobs:
   fail_fast: true
   allow_failures:
